@@ -9,7 +9,7 @@
      var dateTime = new Date();
      dateTime.setFullYear(2021, 10, 23);
 
-     var day = dateTime.getDay();
+     var day = dateTime.getDate();
 
      var month = dateTime.getMonth();
      var year = dateTime.getFullYear();
@@ -40,6 +40,10 @@
 
      if (seconds < 10) {
          seconds = '0' + seconds;
+     }
+
+     if (day < 10) {
+         day = '0' + day;
      }
 
 
