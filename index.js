@@ -7,11 +7,11 @@
 
  function timeset() {
      var dateTime = new Date();
-     dateTime.setFullYear(2021, 10, 23);
+
 
      var day = dateTime.getDate();
 
-     var month = dateTime.getMonth();
+     var month = dateTime.getMonth() + 1;
      var year = dateTime.getFullYear();
 
      var hour = dateTime.getHours();
